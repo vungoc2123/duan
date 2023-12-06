@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.Top10DishFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_TopDish_tuNgay"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Từ ngày"
+                android:textSize="24dp"
+                android:textStyle="bold"
+
+                android:drawableEnd="@drawable/calendar"
+                android:background="#FAF6F6"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_TopDish_denNgay"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:hint="Đến ngày"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:background="#FAF6F6"
+                android:drawableEnd="@drawable/calendar"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_topDish"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_gray_corner_10"
+            android:drawableLeft="@drawable/doanhthu"
+            android:text="Xác nhận"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTop10Dish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</FrameLayout>

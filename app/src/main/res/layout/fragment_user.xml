@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.UserFragment"
+    android:id="@+id/userLayout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edtSearch_user"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/search_mon"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Tìm kiếm người dùng"
+            android:inputType="textPersonName"
+            android:paddingStart="20dp"
+            android:textStyle="italic"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="312dp" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lvUser"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_add"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</FrameLayout>

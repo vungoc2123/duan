@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/quanLyOrder"
+            android:title="@string/nav_order"
+            android:icon="@drawable/ic_order"/>
+        <item android:id="@+id/quanLyUser"
+            android:title="@string/nav_user"
+            android:icon="@drawable/ic_user"/>
+        <item android:id="@+id/quanLyTable"
+            android:title="@string/nav_table"
+            android:icon="@drawable/ic_table"/>
+        <item android:id="@+id/quanLyDish"
+            android:title="@string/nav_dish"
+            android:icon="@drawable/ic_dish"/>
+<!--        <item android:id="@+id/quanLyOrderDish"-->
+<!--            android:title="@string/nav_order_dish"-->
+<!--            android:icon="@drawable/ic_baseline_play_arrow_24"/>-->
+        <item android:id="@+id/quanLyFeedback"
+            android:title="@string/nav_feedback"
+            android:icon="@drawable/ic_feedback"/>
+    </group>
+
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/top10Dish"
+                    android:title="@string/nav_top10_dish"
+                    android:icon="@drawable/ic_baseline_play_arrow_24"/>
+                <item android:id="@+id/top10User"
+                    android:title="@string/nav_top10_user"
+                    android:icon="@drawable/ic_baseline_play_arrow_24"/>
+                <item android:id="@+id/doanhThu"
+                    android:title="@string/nav_doanhThu"
+                    android:icon="@drawable/ic_baseline_play_arrow_24"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+<!--                <item android:id="@+id/doiMatKhau"-->
+<!--                    android:title="@string/nav_doiMatKhau"-->
+<!--                    android:icon="@drawable/ic_baseline_play_arrow_24"/>-->
+                <item android:id="@+id/dangXuat"
+                    android:title="@string/nav_dangXuat"
+                    
+                    android:icon="@drawable/ic_baseline_play_arrow_24"/>
+            </group>
+        </menu>
+    </item>
+</menu>

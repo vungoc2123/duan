@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">QuanLyGoiDi</string>
+    <string name="nav_user">Quản lý người dùng</string>
+    <string name="nav_order">Quản lý hóa đơn</string>
+    <string name="nav_table">Quản lý bàn</string>
+    <string name="nav_dish">Quản lý món ăn</string>
+    <string name="nav_order_dish">Quản lý đặt món</string>
+    <string name="nav_feedback">Quản lý feedback</string>
+    <string name="nav_top10_dish">10 món ăn phổ biến</string>
+    <string name="nav_top10_user">Khách hàng tiềm năng</string>
+    <string name="nav_doanhThu">Doanh thu</string>
+    <string name="nav_doiMatKhau">Đổi mật khẩu</string>
+    <string name="nav_dangXuat">Đăng xuất</string>
+    <string name="login_app_name">Ứng dụng quản lý GoiDi Management</string>
+    <string name="dang_nhap_text">Đăng Nhập</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_remember_text">Remember ?</string>
+</resources>

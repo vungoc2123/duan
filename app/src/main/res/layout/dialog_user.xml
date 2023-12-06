@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_white_corner_16"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+    <TextView
+        android:id="@+id/dialogUserTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@drawable/bg_yellow_corner_16_top_left_top_right"
+        android:text="Thêm User"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtTenTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_corner_10_border_gray"
+            android:layout_marginTop="16dp"
+            android:hint="Tên người dùng"
+            android:padding="12dp"
+
+            />
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_corner_10_border_gray"
+            android:layout_marginTop="16dp"
+            android:hint="Điện thoại"
+            android:padding="12dp"/>
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_white_corner_10_border_gray"
+            android:layout_marginTop="16dp"
+            android:hint="Mật khẩu"
+            android:padding="12dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdoRole"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/rdoRoleAdmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admin"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="20dp"/>
+                <RadioButton
+                    android:id="@+id/rdoRoleClient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Khách"
+                    android:textStyle="bold"/>
+            </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnCancelTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:background="@drawable/bg_gray_corner_10"
+                android:alpha="1"
+                android:layout_marginEnd="10dp"
+                android:text="Hủy"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/btnSaveTV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/bg_yellow_corner_10"
+                android:textSize="14sp"
+                android:text="Lưu"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

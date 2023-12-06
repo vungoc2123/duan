@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/feedBackLayout">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+<!--    <com.nex3z.flowlayout.FlowLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/background_corner20_bordergray"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:gravity="center_vertical">-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="adsada"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20sp" />-->
+<!--            <Button-->
+<!--                android:layout_width="35dp"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:text="x"-->
+<!--                android:backgroundTint="#E53935"/>-->
+<!--        </LinearLayout>-->
+
+<!--    </com.nex3z.flowlayout.FlowLayout>-->
+
+</RelativeLayout>
